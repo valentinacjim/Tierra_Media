@@ -3,12 +3,13 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    color:#f1f1f1;
     }
 /*ajustamos el boddy para que ocupe todo el espacio de la pantalla*/
 body{
     background-color: #212121;
-    height: 99.90vh;
-    width: 99.90vw;
+    height: 99vh;
+    width: 98vw;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     }
@@ -37,6 +38,48 @@ h1{
     color: #f1daaf;
 }
 
+/*---Página princiapal divida---*/
+.marco {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  background-color: #212121;
+  height: 99vh;
+}
+
+/*---Barra lateral---*/
+.marco_izq {
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  height: 100vh;
+  text-align: left;
+}
+
+/*--Sección de música--*/
+/*Div que contiene toda la información*/
+.ColDcha {
+  background-color: #212121;
+  padding: 0;
+  font-size: 30px;
+  max-height: 89vh;
+  text-align: center;
+  color: #f1daaf;
+}
+
+.contenido{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin: 2%;
+    /* height: 100%; */
+    background-color: #212121;
+}
+
 
 
 .card_container{
@@ -55,10 +98,11 @@ h1{
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
     background-color: transparent;
-    width: 15%;
+    width: 12.5%;
     height: 200px;
     border: 1px solid #f1f1f1;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    margin:2%º
   }
   
   /* This container is needed to position the front and back side */
