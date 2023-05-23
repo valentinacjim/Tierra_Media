@@ -1,13 +1,23 @@
+:root{
+  --primary-color: #f1daaf;
+  --hover-color: #f0ad5b;
+  --background-color: #281b01;
+  --background-card-color: #5b3606;
+  
+
+}
+
 /*por defecto no aplicamos márgenes ni padding y los enlaces no aparecerán subrayados*/
 *{  margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
     color:#f1f1f1;
+    
     }
 /*ajustamos el boddy para que ocupe todo el espacio de la pantalla*/
 body{
-    background-color: #212121;
+    background-color: var(--background-color);
     height: 99vh;
     width: 98vw;
     font-family: 'Montserrat', sans-serif;
@@ -26,24 +36,33 @@ p{
 
 /*Enlaces por defecto*/
 a, i{
-    color: #f1daaf;
+    color: var(--primary-color);
 }
 
 /*Encabezados por defecto*/
 h1{
 	font-size: 30px;
-    margin: 0.5em; /*em -> tamaño con respecto al font-size*/
+    margin: 1.25em; /*em -> tamaño con respecto al font-size*/
 	padding: 0;
 	text-align: left;
-    color: #f1daaf;
+    color: var(--primary-color);
 }
 
-/*---Página princiapal divida---*/
+h2{
+  font-size: 25px;
+    margin: 1em; /*em -> tamaño con respecto al font-size*/
+  padding: 0;
+  text-align: left;
+    color: var(--primary-color);
+}
+
+/*---Página principal divida---*/
 .marco {
   display: grid;
   grid-template-columns: 15% 85%;
-  background-color: #212121;
+  background-color: var(--background-color);
   height: 99vh;
+  
 }
 
 /*---Barra lateral---*/
@@ -56,31 +75,102 @@ h1{
   text-align: left;
 }
 
-/*--Sección de música--*/
 /*Div que contiene toda la información*/
 .ColDcha {
-  background-color: #212121;
+  background-color: var(--background-color);
   padding: 0;
   font-size: 30px;
   max-height: 89vh;
   text-align: center;
-  color: #f1daaf;
+  color: var(--primary-color);
 }
 
-.contenido{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    margin: 2%;
-    /* height: 100%; */
-    background-color: #212121;
+.encabezado{
+  display: grid;
+  /* grid-template-columns: 20% 80%; */
+  /* background-color: #000000; */
+  color: var(--primary-color);
+  user-select: none;
+  height: 15vh;
+  padding-left: 0.5em;
+  padding-top: 0.07em;
 }
 
+.encabezado img {
+  width: 60%;
+  height: 85%;
+  margin-left: 2em;
+  /* object-fit: cover; */
+  /* object-position: center; */
+}
 
+.navbar{
+  display: grid;
+  /* background-color: #000000; */
+  /* color: #EBE0FFFF; */
+  user-select: none;
+  /* height: 5vh; */
+  /* padding-left: 0.5em; */
+  padding-top: 0.07em;
+  margin-top: 2em;
+}
+
+.navbar h1{
+  text-align: left;
+  position: relative;
+  font-size: 1.3em;
+  line-height: 1em;
+  /* margin-top: -1.5em; */
+  /* margin-bottom: 0.5em; */
+  letter-spacing: 2px;
+  margin-left: 1em;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  -webkit-text-stroke: 1px var(--primary-color);
+}
+
+.navbar h1::before{
+  content: attr(data-text);
+  position: absolute;
+  color: transparent;
+  width: 0;
+  margin-left: -0.35em;
+  /*margin-top: 0.85em;*/
+  overflow: hidden;
+  transition: 1s;
+  border-right: 3px solid var(--hover-color);
+  -webkit-text-stroke: 3px var(--hover-color);
+}
+
+.navbar h1:hover::before{
+  width: 90%;
+  filter: drop-shadow(0 0 25px var(--hover-color));
+}
+
+.cabecera{
+  height: 12vh;
+  width: 85.25vw;
+  background-color: #000000;
+}
+
+.page{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+  /* margin: 0; */
+  padding: 0 1%;
+  /* width: 100%; */
+  /* margin: 0 0.5%; */
+  height: 87.25vh;
+  width: 83.3vw;
+  /* overflow-y: hidden; */
+  overflow-x: hidden;
+  position: absolute;
+  visibility: hidden;
+  /* margin-top: 7.25vh; */
+  /* background-color: #212121; */
+}
 
 .card_container{
     display: flex;
@@ -90,9 +180,9 @@ h1{
     margin: 0;
     padding: 0;
     width: 100%;
-    margin: 2%;
+    /* margin: 2%; */
     /* height: 100%; */
-    background-color: #212121;
+    /* background-color: var(--background-color); */
 }
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
@@ -100,9 +190,9 @@ h1{
     background-color: transparent;
     width: 12.5%;
     height: 200px;
-    border: 1px solid #f1f1f1;
+    border: 1px solid var(--primary-color);
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
-    margin:2%º
+    margin:2%;
   }
   
   /* This container is needed to position the front and back side */
@@ -142,8 +232,15 @@ h1{
   
   /* Style the back side */
   .flip-card-back {
-    background-color: dodgerblue;
-    color: white;
+    background-color: var(--background-card-color);
     transform: rotateY(180deg);
   }
 
+  .card_title{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 50%;
+    padding: 0;
+    text-align: center;
+    color: var(--primary-color);
+  }
