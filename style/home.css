@@ -13,7 +13,7 @@
     list-style: none;
     text-decoration: none;
     color:#f1f1f1;
-    
+    text-align: justify;
     }
 /*ajustamos el boddy para que ocupe todo el espacio de la pantalla*/
 body{
@@ -44,7 +44,7 @@ h1{
 	font-size: 30px;
     margin: 1.25em; /*em -> tamaño con respecto al font-size*/
 	padding: 0;
-	text-align: left;
+	text-align: center;
     color: var(--primary-color);
 }
 
@@ -52,7 +52,15 @@ h2{
   font-size: 25px;
     margin: 1em; /*em -> tamaño con respecto al font-size*/
   padding: 0;
-  text-align: left;
+	text-align: center;
+    color: var(--primary-color);
+}
+
+h3{
+  font-size: 20px;
+    margin: 0.75em; /*em -> tamaño con respecto al font-size*/
+  padding: 0;
+	text-align: center;
     color: var(--primary-color);
 }
 
@@ -148,21 +156,19 @@ h2{
 }
 
 .cabecera{
-  height: 12vh;
+  height: 10vh;
   width: 85.25vw;
   background-color: #000000;
 }
 
 .page{
-  display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  /* align-items: center; */
-  /* margin: 0; */
+  align-items: center;
+  margin: 0;
   padding: 0 1%;
   /* width: 100%; */
   /* margin: 0 0.5%; */
-  height: 87.25vh;
+  height: 89vh;
   width: 83.3vw;
   /* overflow-y: hidden; */
   overflow-x: hidden;
@@ -237,10 +243,32 @@ h2{
   }
 
   .card_title{
-    font-size: 1.5em;
+    font-size: 1.25em;
     font-weight: bold;
     margin-top: 50%;
+    /* margin-left: 10%; */
     padding: 0;
     text-align: center;
     color: var(--primary-color);
+  }
+
+  .card_title_libros{
+    font-size: 0.75em;
+    font-weight: bold;
+    /* margin-top: 50%; */
+    /* margin-left: 10%; */
+    padding: 0;
+    text-align: center;
+    color: var(--primary-color);
+  }
+
+  .flip-card-back p{
+    font-size: 0.75em;
+    /* font-weight: bold; */
+    /* margin-top: 50%; */
+    /* margin-left: 10%; */
+    padding: 0;
+    margin: 2%;
+    text-align: center;
+    color: white;
   }
