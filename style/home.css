@@ -192,13 +192,22 @@ h3{
 }
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
-.flip-card {
+  .flip-card {
     background-color: transparent;
     width: 12.5%;
     height: 200px;
     border: 1px solid var(--primary-color);
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
     margin:2%;
+  }
+
+  .flip-card_peliculas {
+    background-color: transparent;
+    width: 11.5%;
+    height: 200px;
+    border: 1px solid var(--primary-color);
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    margin:1%;
   }
   
   /* This container is needed to position the front and back side */
@@ -212,7 +221,7 @@ h3{
   }
   
   /* Do an horizontal flip when you move the mouse over the flip box container */
-  .flip-card:hover .flip-card-inner {
+  .flip-card:hover .flip-card-inner, .flip-card_peliculas:hover .flip-card-inner {
     transform: rotateY(180deg);
   }
   
@@ -256,6 +265,26 @@ h3{
     font-size: 0.75em;
     font-weight: bold;
     /* margin-top: 50%; */
+    /* margin-left: 10%; */
+    padding: 0;
+    text-align: center;
+    color: var(--primary-color);
+  }
+
+  .card_title_peliculas{
+    font-size: 0.75em;
+    font-weight: bold;
+    margin-top: 50%;
+    /* margin-left: 10%; */
+    padding: 0;
+    text-align: center;
+    color: var(--primary-color);
+  }
+
+  #cinytm_peli{
+    font-size: 0.75em;
+    font-weight: bold;
+    margin-top: 40%;
     /* margin-left: 10%; */
     padding: 0;
     text-align: center;
