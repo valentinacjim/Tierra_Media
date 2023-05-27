@@ -2,22 +2,24 @@
 <head>
 <title> TIERRA MEDIA </title>
 <link rel = "stylesheet" href="style/home.css">
+<link rel = "stylesheet" href="style/razas.css">
+
 </head>
 <body>
   <div class="marco">
     <div class="marco_izq"> 
         <div class="encabezado">
-          <img src="images/tierra_media_logo.jpg" alt="Logo">
+          <img src="images/tierra_media_logo.jpg" alt="Logo" onclick="mostrarPagina(0)">
         </div>
 
         <div class="navbar">
-        <h1 data-text="&nbsp;Home"> Home </h1>
-        <h1 data-text="&nbsp;Libros"> Libros </h1>
-        <h1 data-text="&nbsp;Peliculas"> Peliculas </h1>
-        <h1 data-text="&nbsp;Personajes"> Personajes </h1>
-        <h1 data-text="&nbsp;Lugares"> Lugares </h1>
-        <h1 data-text="&nbsp;Razas"> Razas </h1>
-        <h1 data-text="&nbsp;Historia"> Historia </h1>
+        <h1 data-text="&nbsp;Inicio" onclick="mostrarPagina(0)"> Inicio </h1>
+        <h1 data-text="&nbsp;Libros" onclick="mostrarPagina(2)"> Libros </h1>
+        <h1 data-text="&nbsp;Peliculas" onclick="mostrarPagina(3)"> Peliculas </h1>
+        <h1 data-text="&nbsp;Personajes" onclick="mostrarPagina(4)"> Personajes </h1>
+        <h1 data-text="&nbsp;Lugares" onclick="mostrarPagina(5)"> Lugares </h1>
+        <h1 data-text="&nbsp;Razas" onclick="mostrarPagina(6)"> Razas </h1>
+        <h1 data-text="&nbsp;Historia"onclick="mostrarPagina(1)"> Historia </h1>
         </div>
     </div>
 
@@ -37,7 +39,7 @@
 
             <h1 class="head_title"> Categorías </h1>
             <div class="card_container">
-            <div class="flip-card">    
+            <div class="flip-card" onclick="mostrarPagina(2)">    
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
                     <img src="images/libros_card.jpg" alt="Libros">
@@ -48,7 +50,7 @@
                 </div>
             </div>
 
-            <div class="flip-card">
+            <div class="flip-card" onclick="mostrarPagina(1)">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
                   <img src="images/historia_card.jpg" alt="Historia">
@@ -59,18 +61,18 @@
               </div>
             </div>
 
-            <div class="flip-card">  
+            <div class="flip-card" onclick="mostrarPagina(3)">  
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
                     <img src="images/peliculas_card.png" alt="Peliculas">
                   </div>
                   <div class="flip-card-back">
-                    <h1 class="card_title">Películas</h1>
+                    <h1 class="card_title">Películas y Series</h1>
                   </div>
                 </div>
             </div>
 
-            <div class="flip-card">  
+            <div class="flip-card" onclick="mostrarPagina(4)">  
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
                     <img src="images/personajes_card.png" alt="Personajes">
@@ -81,7 +83,7 @@
                 </div>
             </div>
 
-            <div class="flip-card">  
+            <div class="flip-card" onclick="mostrarPagina(5)">  
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
                     <img src="images/lugares_card.jpg" alt="Lugares">
@@ -92,7 +94,7 @@
                 </div>
             </div>
 
-            <div class="flip-card">  
+            <div class="flip-card" onclick="mostrarPagina(6)">  
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
                     <img src="images/razas_card.jpg" alt="Razas">
@@ -108,7 +110,7 @@
 
         </div>
 
-        <div class ="page">
+        <div class="page">
           <h1 class="head_title"> Historia </h1>
           La Historia de la Tierra Media se divide en tres grandes períodos las Edades de las Lámparas, 
           las Edades de los Árboles y las Edades del Sol. De estos tres períodos, solo las Edades del Sol 
@@ -589,6 +591,125 @@
 
       </div>
         </div>
+
+        <div class="page">
+          <h1>Razas</h1>
+          <div class="card_container">
+            <div class="flip-card_peliculas">    
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="images/ainur_card.jpg" alt="Ainur">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1 class="card_title">Ainur</h1>
+
+                  </div>
+                </div>
+            </div>
+
+            <div class="flip-card_peliculas">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/elfos_card.jpg" alt="Elfos">
+                </div>
+                <div class="flip-card-back">
+                  <h1 class="card_title">Elfos</h1>
+                </div>
+              </div>
+            </div>
+
+            <div class="flip-card_peliculas">  
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="images/enanos_card.jpg" alt="Enanos">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1 class="card_title">Enanos</h1>
+                  </div>
+                </div>
+            </div>
+
+            <div class="flip-card_peliculas">  
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="images/hobbits_card.jpg" alt="Hobbits">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1 class="card_title">Hobbits</h1>
+                  </div>
+                </div>
+            </div>
+
+            <div class="flip-card_peliculas">  
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="images/hombres_card.jpg" alt="Hombres">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1 class="card_title">Hombres</h1>
+                  </div>
+                </div>
+            </div>
+
+            <div class="flip-card_peliculas">  
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="images/orcos_card.jpg" alt="Orcos">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1 class="card_title">Orcos</h1>
+                  </div>
+                </div>
+            </div>
+
+            <div class="flip-card_peliculas">    
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/peredhil_card.jpg" alt="Peredhil">
+                </div>
+                <div class="flip-card-back">
+                  <h1 class="card_title ">Peredhil</h1>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="page">
+          <h1>Ainur</h1>
+          <div class="introduccion">
+          <p>Los Sagrados, (singular Ainu); fueron los primeros seres creados por Ilúvatar, vastagos de su pensamiento, hechos antes de Eä, no se conoce el número exacto de cuantos Ainur existieron. Luego de la creación de Arda, hubo algunos que se quedaron junto a Iluvatar, y otros que se fueron a Arda que estaban divididos en dos categorías: los Valar (de los que se sabe que fueron 15) que eran los más poderosos entre los ainur y los Maiar que eran sirvientes y ayudantes (no se sabe cuantos hay).</p>
+          <p>Son espiritus inmortales, aparentemente con la capacidad de cambiar de forma, se sabe que son los seres más poderosos en todo Eä después de Ilúvatar.</p>
+          <p>Entre los Valar los 8 más poderosos son conocidos como Aratar.</p>
+          <p>Uno de los más poderosos, Morgoth, se convirtió en el enemigo corrompiendo a otros Ainur como Sauron y los Balrogs, destruyendo parte de la Tierra Media y provocando grandes batallas.</p>
+          </div>
+        </div>
+
+        <div class="page">
+          
+        </div>
+
+        <div class="page">
+          
+        </div>
+
+        <div class="page">
+          
+        </div>
+
+        <div class="page">
+          
+        </div>
+
+        <div class="page">
+          
+        </div>
+
+        <div class="page">
+          
+        </div>
+
     </div>
 
   </div>
