@@ -2,3 +2,25 @@
     text-align: justify;
     padding: 10px;
 }
+
+.card_container_razas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /* margin: 2%; */
+    /* height: 100%; */
+    /* background-color: var(--background-color); */
+}
+.flip-card_razas {
+    background-color: transparent;
+    width: 14.5%;
+    margin: 0 5em;
+    height: 250px;
+    border: 1px solid var(--primary-color);
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    /* margin:1%; */
+  }

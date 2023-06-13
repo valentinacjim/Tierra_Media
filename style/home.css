@@ -221,7 +221,7 @@ h3{
   }
   
   /* Do an horizontal flip when you move the mouse over the flip box container */
-  .flip-card:hover .flip-card-inner, .flip-card_peliculas:hover .flip-card-inner {
+  .flip-card:hover .flip-card-inner, .flip-card_peliculas:hover .flip-card-inner, .flip-card_razas:hover .flip-card-inner {
     transform: rotateY(180deg);
   }
   
