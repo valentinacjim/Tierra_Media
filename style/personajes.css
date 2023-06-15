@@ -1,0 +1,22 @@
+.marco_personajes{
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+.cabecera_personajes{
+    /* height: 10vh; */
+    width: 50vw;
+}
+
+.espacio{
+    height: 10vh;
+    width: 50vw;
+}
+
+.ficha{
+    /* position: absolute; */
+    background-color: aquamarine;
+    height: 70vh;
+    /* width: 30%; */
+    float: right;
+}

@@ -9,5 +9,5 @@ function mostrarPagina(index) {
     paginas[index].style.visibility = 'visible';
 }
 
-let page = document.getElementsByClassName('page')[9];
+let page = document.getElementsByClassName('page')[10];
 page.style.visibility = 'visible';
