@@ -1,6 +1,6 @@
 
 
-function crear_pagina_personajes(personaje){
+function crearPaginaPersonaje(personaje){
     // console.log();
     document.querySelector('.cabecera_personajes').innerHTML = '<h1>' + personaje.nombre + '</h1> <div class="introduccion_personajes">';
     // console.log(personaje.introducción[0]);
@@ -29,7 +29,7 @@ function crear_pagina_personajes(personaje){
     
 }
 
-function hide_index(){
+function hideIndex(){
     if (document.querySelector('.indice ul').style.display == 'none') document.querySelector('.indice ul').style.display = 'block';
     else  document.querySelector('.indice ul').style.display = 'none';
 }
