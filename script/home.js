@@ -11,3 +11,4 @@ function mostrarPagina(index) {
 
 let page = document.getElementsByClassName('page')[10];
 page.style.visibility = 'visible';
+crear_pagina_personajes(gandalf);

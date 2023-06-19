@@ -6,13 +6,13 @@
 .introduccion_personajes{
     text-align: justify;
     padding: 10px;
-    width: 50vw;
+    /* width: 50vw; */
     font-size: 1.25em;
 }
 
 .cabecera_personajes{
     height: 10vh;
-    width: 50vw;
+    /* width: 50vw; */
 }
 
 .espacio{
@@ -22,20 +22,74 @@
 
 .ficha{
     /* position: absolute; */
-    background-color: aquamarine;
-    height: 60vh;
-    /* width: 30%; */
-    float: right;
-    margin-right: 1em;
+    background-color: var(--background-card-color);
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+    /* float: right; */
+    /* margin-right: 1em; */
 }
 
 .ficha img{
     margin: 0.85em;
+    width: 90%;
 }
 
 .ficha h3{
     text-align: center;
     font-size: 1.25em;
-    color: #000000;
+    /* color: #000000; */
     margin-top: 0em;
 }
+
+
+
+.indice{
+    /* background-color: #0000008f; */
+    float: left;
+    /* height: 100%; */
+    /* margin: ; */
+    width: 75vw;
+    padding-right: 75px;
+    margin: 2em 0;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px
+}
+
+.indice h2{
+    text-align: left;
+    padding-left: 1em;
+    border-bottom: 1px solid var(--primary-color);
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.datos{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10px;
+    /* color: #000000; */
+    font-size: smaller;
+
+}
+
+.indice ul{
+    list-style: inside upper-roman;
+    padding-left: 2em;
+    /* padding-top: 1em; */
+    padding-bottom: 1em;
+    /* color: #000000; */
+    font-size: 1.5em;
+
+}
+
+.informacion h1{
+    text-align: left;
+    border-bottom: 1px solid var(--primary-color);
+    padding: 10px;
+    margin-left: 0.5em;
+    /* border-spacing: 80px; */
+    
+
+}
+
