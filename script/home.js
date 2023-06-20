@@ -12,6 +12,6 @@ function mostrarPagina(index, name=null) {
     }
 }
 
-let page = document.getElementsByClassName('page')[10];
+let page = document.getElementsByClassName('page')[11];
 page.style.visibility = 'visible';
-crearPaginaPersonaje(magos_azules);
+crearPaginaPersonaje(radagast);
