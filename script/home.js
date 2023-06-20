@@ -7,11 +7,14 @@ function mostrarPagina(index, name=null) {
         paginas[i].style.visibility = 'hidden';
     }
     paginas[index].style.visibility = 'visible';
-    if (index == 10) {
+    if (index == 8) {
         crearPaginaPersonaje(name);
+    }
+    if (index == 7) {
+        crearPaginaRaza(name);
     }
 }
 
-let page = document.getElementsByClassName('page')[11];
+let page = document.getElementsByClassName('page')[7];
 page.style.visibility = 'visible';
-crearPaginaPersonaje(radagast);
+crearPaginaRaza(ainur);
