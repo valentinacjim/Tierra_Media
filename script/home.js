@@ -14,4 +14,4 @@ function mostrarPagina(index, name=null) {
 
 let page = document.getElementsByClassName('page')[10];
 page.style.visibility = 'visible';
-crearPaginaPersonaje(gandalf);
+crearPaginaPersonaje(magos_azules);
