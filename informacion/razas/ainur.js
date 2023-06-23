@@ -1,5 +1,6 @@
 let ainur = {
     nombre: 'Ainur',
+    nombre_objeto: 'ainur',
     introducción: "<p>Los Sagrados, (singular Ainu); fueron los primeros seres creados por Ilúvatar, vastagos de su pensamiento, hechos antes de Eä, no se conoce el número exacto de cuantos Ainur existieron. Luego de la creación de Arda, hubo algunos que se quedaron junto a Iluvatar, y otros que se fueron a Arda que estaban divididos en dos categorías: los Valar (de los que se sabe que fueron 15) que eran los más poderosos entre los Ainur y los Maiar que eran sirvientes y ayudantes (no se sabe cuantos hay).</p>"+
     "<p>Son espiritus inmortales, aparentemente con la capacidad de cambiar de forma, se sabe que son los seres más poderosos en todo Eä después de Ilúvatar.</p>"+
     "<p>Entre los Valar los 8 más poderosos son conocidos como Aratar.</p>" +
@@ -23,6 +24,7 @@ let ainur = {
 
 let maiar = {
     nombre: 'Maiar',
+    nombre_objeto: 'maiar',
     introducción: "Los Maiar son seres espirituales, creados por Ilúvatar a partir de su pensamiento, que forman parte de la cosmogonía que creó Tolkien en la Ainulindalë. Los Maiar y los Valar son conocidos conjuntamente como Ainur, pero los Maiar son de menor rango que los Valar. Los Maiar, sirven a los poderosos Valar (que son catorce) y les asisten en su tarea de dar forma al mundo."+
     "<br> Los Maiar que descendieron a la Tierra Media eran muchos y muy numerosos, muchos más en numero que los Valar. El grupo de los Maiar está constituido por tanto, por aquellos Ainur de menor rango que descendieron a Arda junto a los Valar, para servirles y ayudarles a acabar de dar forma al mundo."+
     "<br> Como los Valar, los Maiar tenían el poder de adoptar una forma corpórea."+
@@ -38,7 +40,7 @@ let maiar = {
         {
             nombre_objeto: 'balrogs',
             titulo: 'Balrogs',
-            image: 'images/balrog_card.jpg',
+            image: 'images/balrogs_card.jpg',
             tipo: 7
         },
         {
@@ -118,6 +120,7 @@ let maiar = {
 
 let istari = {
     nombre: 'Istari',
+    nombre_objeto: 'istari',
     introducción: "Los Istari o Magos son un grupo de Maiar que fueron enviados a la Tierra Media con la misión de liberar a los Pueblos Libres de la sombra de Sauron. Tomaron forma humana, la de hombres de avanzada edad, con largas barbas, capas, botas y largos bastones."+
     "<br><br>" +
     '<p style = "font-size: 20px; font-weight: bold;" onclick="mostrarPagina(8, saruman)"> Saruman el Blanco </p>' +

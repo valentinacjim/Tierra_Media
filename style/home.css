@@ -302,3 +302,14 @@ h3{
     text-align: center;
     color: white;
   }
+
+  .anterior{
+    position: absolute;
+    top: 1%;
+    left: 10px;
+    padding: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    font-size: 30px;
+  }
