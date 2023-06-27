@@ -40,7 +40,8 @@ function crearPaginaPersonaje(personaje){
     }
 
     document.querySelector('.informacion').innerHTML += '<br>';
-    
+    document.querySelector('#personajes').innerHTML += '<div class="anterior"><i class="fas fa-arrow-left" onclick="volver()"></i></div>';
+
     
 }
 

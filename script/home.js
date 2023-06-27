@@ -4,7 +4,16 @@ let historial = [[0]];
 // console.log(paginas.length);
 
 function mostrarPagina(index, name=null, actual=null) {
-    historial.push([index, actual]);
+    // historial.push();
+    if (actual == null) {
+        for (let i = 0; i < paginas.length; i++) {
+            if (paginas[i].style.visibility == 'visible') {
+                actual = i;
+            }
+        }
+    }
+    historial.push(actual);
+
     for (let i = 0; i < paginas.length; i++) {
         paginas[i].style.visibility = 'hidden';
     }
@@ -20,20 +29,29 @@ function mostrarPagina(index, name=null, actual=null) {
 }
 
 function volver() {
-    historial.pop();
-    
+     console.log(historial);
     let anterior = historial[historial.length-1];
-
+    console.log(anterior);
     for (let i = 0; i < paginas.length; i++) {
         paginas[i].style.visibility = 'hidden';
     }
-    paginas[anterior[0]].style.visibility = 'visible';
-    if (anterior[0] == 8) {
-        crearPaginaPersonaje(anterior[1]);
+    if (typeof(anterior) == 'number'){
+      paginas[anterior].style.visibility = 'visible';
     }
-    if (anterior[0] == 7) {
-        crearPaginaRaza(anterior[1]);
+    else {
+        // si existe atributo cards en anterior
+        if (anterior.hasOwnProperty('cards')) {
+
+            crearPaginaRaza(anterior);
+            paginas[7].style.visibility = 'visible';
+        }
+        else {
+            crearPaginaPersonaje(anterior);
+            paginas[8].style.visibility = 'visible';
+        }
     }
+
+    historial.pop();
 
 }
 

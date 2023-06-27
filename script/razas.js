@@ -1,7 +1,7 @@
 
 
 function crearPaginaRaza(raza){
-    console.log(raza);
+    // console.log(raza);
     document.querySelector('#raza h1').innerHTML = raza.nombre;
     document.querySelector('#raza .introduccion').innerHTML = raza.introducción;
     document.querySelector('#raza .card_container_razas').innerHTML = '';   

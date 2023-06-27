@@ -42,7 +42,7 @@
 
             <h1 class="head_title"> Categorías </h1>
             <div class="card_container">
-            <div class="flip-card" onclick="mostrarPagina(2)">    
+            <div class="flip-card" onclick="mostrarPagina(2, actual = 0)">    
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
                     <img src="images/libros_card.jpg" alt="Libros">
@@ -53,7 +53,7 @@
                 </div>
             </div>
 
-            <div class="flip-card" onclick="mostrarPagina(1)">
+            <div class="flip-card" onclick="mostrarPagina(1, actual = 0)">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
                   <img src="images/historia_card.jpg" alt="Historia">
@@ -64,7 +64,7 @@
               </div>
             </div>
 
-            <div class="flip-card" onclick="mostrarPagina(3)">  
+            <div class="flip-card" onclick="mostrarPagina(3, actual = 0)">  
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
                     <img src="images/peliculas_card.png" alt="Peliculas">
@@ -75,7 +75,7 @@
                 </div>
             </div>
 
-            <div class="flip-card" onclick="mostrarPagina(4)">  
+            <div class="flip-card" onclick="mostrarPagina(4, actual = 0)">  
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
                     <img src="images/personajes_card.png" alt="Personajes">
@@ -86,7 +86,7 @@
                 </div>
             </div>
 
-            <div class="flip-card" onclick="mostrarPagina(5)">  
+            <div class="flip-card" onclick="mostrarPagina(5, actual = 0)">  
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
                     <img src="images/lugares_card.jpg" alt="Lugares">
@@ -97,7 +97,7 @@
                 </div>
             </div>
 
-            <div class="flip-card" onclick="mostrarPagina(6)">  
+            <div class="flip-card" onclick="mostrarPagina(6, actual = 0)">  
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
                     <img src="images/razas_card.jpg" alt="Razas">
@@ -114,6 +114,9 @@
         </div>
 
         <div class="page">
+          <div class="anterior">
+            <i class="fas fa-arrow-left" onclick="volver()"></i>
+          </div>
           <h1 class="head_title"> Historia </h1>
           La Historia de la Tierra Media se divide en tres grandes períodos las Edades de las Lámparas, 
           las Edades de los Árboles y las Edades del Sol. De estos tres períodos, solo las Edades del Sol 
@@ -175,6 +178,9 @@
         </div>
 
         <div class="page">
+          <div class="anterior">
+            <i class="fas fa-arrow-left" onclick="volver()"></i>
+          </div>
           <h1> Libros </h1>
 
           <div class="card_container">
@@ -255,6 +261,9 @@
         </div>
 
         <div class="page">
+          <div class="anterior">
+            <i class="fas fa-arrow-left" onclick="volver()"></i>
+          </div>
           <h1> Películas y Series </h1>
 
           <div class="card_container">
@@ -339,6 +348,9 @@
         </div>
 
         <div class="page">
+          <div class="anterior">
+            <i class="fas fa-arrow-left" onclick="volver()"></i>
+          </div>
           <h1> Personajes </h1>
           <div class="card_container">
             <div class="flip-card">    
@@ -411,6 +423,9 @@
         </div>
 
         <div class="page">
+          <div class="anterior">
+            <i class="fas fa-arrow-left" onclick="volver()"></i>
+          </div>
           <h1> Lugares </h1>
           <div class="card_container">
             <div class="flip-card">    
@@ -596,9 +611,12 @@
         </div>
 
         <div class="page">
+          <div class="anterior">
+            <i class="fas fa-arrow-left" onclick="volver()"></i>
+          </div>
           <h1>Razas</h1>
           <div class="card_container">
-            <div class="flip-card_peliculas" onclick="mostrarPagina(7, ainur)">    
+            <div class="flip-card_peliculas" onclick="mostrarPagina(7, ainur, 6)">    
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
                     <img src="images/ainur_card.jpg" alt="Ainur">

@@ -123,18 +123,63 @@ let istari = {
     nombre_objeto: 'istari',
     introducción: "Los Istari o Magos son un grupo de Maiar que fueron enviados a la Tierra Media con la misión de liberar a los Pueblos Libres de la sombra de Sauron. Tomaron forma humana, la de hombres de avanzada edad, con largas barbas, capas, botas y largos bastones."+
     "<br><br>" +
-    '<p style = "font-size: 20px; font-weight: bold;" onclick="mostrarPagina(8, saruman)"> Saruman el Blanco </p>' +
+    '<p style = "font-size: 20px; font-weight: bold;" onclick="mostrarPagina(8, saruman, actual = istari)"> Saruman el Blanco </p>' +
     'El líder de la orden y del Concilio Blanco. Saruman era el más sabio y docto, por lo que se dedicó en cuerpo y alma a estudiar los poderes y métodos del enemigo, para así derrotarle. Hasta tal punto se obsesionó que finalmente se dejó seducir por el poder del Mal y quiso tomar el Anillo Único para sí. Muere en La Comarca a manos de su sirviente Grima Lengua de Serpiente.'+
     '<br><br>' +
-    '<p style = "font-size: 20px; font-weight: bold;" onclick="mostrarPagina(8, gandalf)"> Gandalf el Gris </p>' +
+    '<p style = "font-size: 20px; font-weight: bold;" onclick="mostrarPagina(8, gandalf, actual = istari)"> Gandalf el Gris </p>' +
     'Maia de Irmo, llamado de muchas maneras: Mithrandir por los elfos, Peregrino Gris (por andar siempre de un sitio a otro, sin un lugar fijo) por los hombres y Tharkûn por los enanos, es el más conocido de los Istari. Participante del Concilio Blanco, guio a los enanos hasta la gruta de Smaug para que recuperasen su tesoro y ayudó a expulsar al Nigromante del Bosque Negro. Además, formó parte de la Compañía del Anillo, siendo su líder hasta llegar a Moria, donde se enfrentó al Balrog, acabando con este en Zirak-zigil, pero muriendo y volviendo a la vida como Gandalf el Blanco. Tras esto participó en las batallas del Abismo de Helm y Minas Tirith, ayudando a los Hombres a derrotar a las fuerzas de Saruman y Sauron, quien fue totalmente derrotado. Al acabar la guerra y haber sido destruido el Anillo Único, parte hacia las Tierras Imperecederas junto a Elrond, Galadriel, Bilbo, y Frodo Bolsón.'+
     '<br><br>'+
-    '<p style = "font-size: 20px; font-weight: bold;" onclick="mostrarPagina(8, radagast)"> Radagast el Pardo </p>'+
+    '<p style = "font-size: 20px; font-weight: bold;" onclick="mostrarPagina(8, radagast, actual = istari)"> Radagast el Pardo </p>'+
     'Mago que se sintió fascinado por la naturaleza y formas de vida de la Tierra Media. Aunque formó parte del Concilio Blanco, no acompañó a sus colegas a combatir al Nigromante en Dol Guldur, ni tuvo una participación activa en la Guerra del Anillo. Se asume que su obsesión por la naturaleza y la vida le hizo olvidar su misión. Su destino es desconocido.'+
     '<br><br>'+
-    '<p style = "font-size: 20px; font-weight: bold;" onclick="mostrarPagina(8, magos_azules)"> Los Magos Azules</p> '+
+    '<p style = "font-size: 20px; font-weight: bold;" onclick="mostrarPagina(8, magos_azules, actual = istari)"> Los Magos Azules</p> '+
     'Los Magos Azules, Alatar y Pallando, fueron enviados a la Tierra Media con la misma misión que el resto de los Istari, pero se desconoce su destino. Se sabe que viajaron al Este, y que no participaron en la Guerra del Anillo. Se cree que fueron seducidos por el poder de Sauron y que se convirtieron en sus aliados, pero no hay nada confirmado.',
-    cards: []
+    cards: [],
 
+}
+
+let balrogs = {
+    nombre: 'Balrogs',
+    nombre_objeto: 'balrogs',
+    introducción: "Los Balrogs forma Sindarin que corresponde al Quenya Valaraukar «Demonios del Poder», fueron Maiar corrompidos por Melkor, siendo sus más poderosos seguidores después de Sauron."+
+    "<br><br>" +
+    "<h2> Descripción </h2>" +
+    "Eran espíritus con corazones de fuego, pero un manto de tinieblas los cubrían y el terror iba delante de ellos. Usaban látigos de llama y solo respondían ante su señor, Melkor"+
+    "<br>" +
+    "Inducían terror a sus enemigos y aliados por igual, y la sola mención de ellos provocaba miedo a los más valientes guerreros. Eran colosalmente poderosos y solo los dragones podían hacerles frente."+
+    "<br><br>" +
+    "<h2> Historia </h2>" +
+    "Originalmente Maiar de fuego, fueron seducidos por Melkor, quien los corrompió tras la Creación de Arda. En las edades de las Estrellas los Valar capturaron a Melkor destruyendo Utumno y Angband, haciendo huir a los Balrogs. Cuando su amo volvió con el nombre de Morgoth, fue atacado por Ungoliat, un ser arácnido gigante, y fue rescatado por los Balrogs."+
+    "<br>" +
+    "Los Balrogs lucharon con frecuencia en las Guerras de Beleriand, pero la mayoría fueron destruidos en la Gran Batalla. Los pocos que sobrevivieron se escondieron en profundos lugares subterráneos, pero en el año 1980 de la Tercera Edad los Enanos descubrieron uno en el nacimiento de una veta de mithril en Khazad-dûm. Este fue conocido con los sobrenombres de el Daño de Durin y el Terror, el cual mató a dos reyes del Pueblo de Durin en dos años, haciendo que los Enanos abandonaran Moria. Este fue destruido por Gandalf el Gris en 3019 de la Tercera Edad en la cima de Zirak-zigil.",
+
+
+    cards: [
+        {
+            nombre_objeto: 'gothmog',
+            nombre: 'Gothmog',
+            image: "images/gothmog_card.jpg",
+            tipo: 8,
+        },
+        {
+            nombre_objeto: 'durin_bane',
+            nombre: 'Durin Bane',
+            image: "images/durin_bane_card.jpg",
+            tipo: 8,
+        },
+        {
+            nombre_objeto: 'lungorthin',
+            nombre: 'Lungorthin',
+            image: "images/lungorthin_card.jpg",
+            tipo: 8,
+        },
+        {
+            nombre_objeto: 'regonorth', 
+            nombre: 'Regonorth',
+            image: "images/regonorth_card.jpg",
+            tipo: 8,
+        }
+
+    ]
 }
 
