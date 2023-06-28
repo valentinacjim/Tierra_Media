@@ -51,7 +51,7 @@ let maiar = {
         },
         {
             nombre_objeto: 'eonwe',
-            titulo: 'Eönwe',
+            titulo: 'Eönwë',
             image: 'images/eonwe_card.jpg',
             tipo: 8
         },
@@ -162,9 +162,9 @@ let balrogs = {
             tipo: 8,
         },
         {
-            nombre_objeto: 'durin_bane',
-            nombre: 'Durin Bane',
-            image: "images/durin_bane_card.jpg",
+            nombre_objeto: 'daño_durin',
+            nombre: 'Daño de Durin',
+            image: "images/daño_durin_card.jpg",
             tipo: 8,
         },
         {
