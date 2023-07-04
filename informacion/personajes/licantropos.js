@@ -5,7 +5,7 @@ let licantropos = {
         'Origen': 'Maiar corrompidos por Melkor',
         'Raza': 'Maiar',
     },
-    image: 'images/personajes/',
+    image: 'images/personajes/Licantropo.jpg',
     indice: ['Origen', 'Primera Edad del Sol', 'Tercera Edad del Sol'],
     introducción: ['Muchos fueron los espíritus que, corrompidos por Morgoth, optaron por hacer el mal y lucharon entre sus filas. Entre estos poderosos espíritus malignos se encontraban los licántropos. El origen de estos espíritus es desconocido, pero se sabe que adoptaron la forma de grandes lobos por medio de la brujería. Eran una raza terrible y sus ojos brillaban con una aterradora ira y una maléfica hambre y sed de muerte. Podían hablar tanto en la Lengua Negra como en los idiomas élficos. Eran temidos por todos sus enemigos, y muy despiadados en combate. Y pocos eran los capaces de hacerles frente en las batallas.'],
     informacion: {

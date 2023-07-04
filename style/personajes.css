@@ -1,16 +1,16 @@
-.marco_personajes{
+.marco_tema{
     display: grid;
     grid-template-columns: 75% 25%;
 }
 
-.introduccion_personajes{
+.introduccion_tema{
     text-align: justify;
     padding: 10px;
     /* width: 50vw; */
     font-size: 1.25em;
 }
 
-.cabecera_personajes{
+.cabecera_tema{
     height: 10vh;
     /* width: 50vw; */
 }

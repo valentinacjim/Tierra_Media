@@ -1,10 +1,23 @@
+document.write('<script src="informacion/razas/ainur.js"></script>');
 document.write('<script src="informacion/personajes/gandalf.js"></script>');
 document.write('<script src="informacion/personajes/magos_azules.js"></script>');
 document.write('<script src="informacion/personajes/saruman.js"></script>');
 document.write('<script src="informacion/personajes/radagast.js"></script>');
-document.write('<script src="informacion/razas/ainur.js"></script>');
 document.write('<script src="informacion/personajes/gothmog.js"></script>');
 document.write('<script src="informacion/personajes/lungorthin.js"></script>');
 document.write('<script src="informacion/personajes/daño_durin.js"></script>');
 document.write('<script src="informacion/personajes/regonorth.js"></script>');
+document.write('<script src="informacion/personajes/eonwe.js"></script>');
+document.write('<script src="informacion/personajes/tilion.js"></script>');
+document.write('<script src="informacion/personajes/uinen.js"></script>');
+document.write('<script src="informacion/personajes/arien.js"></script>');
+document.write('<script src="informacion/personajes/halbrand.js"></script>');
+document.write('<script src="informacion/personajes/ilmarë.js"></script>');
+document.write('<script src="informacion/personajes/licantropos.js"></script>');
+document.write('<script src="informacion/personajes/luthien.js"></script>');
+document.write('<script src="informacion/personajes/melian.js"></script>');
+document.write('<script src="informacion/personajes/osse.js"></script>');
+document.write('<script src="informacion/personajes/salmar.js"></script>');
+document.write('<script src="informacion/personajes/sauron.js"></script>');
+// document.write('<script src=""></script>');
 

@@ -7,7 +7,7 @@ let eonwe = {
         'Muerte': '???',
         'Título': 'Heraldo de Manwë',
     },
-    image: 'images/personajes/',
+    image: 'images/personajes/eonwe.jpg',
     indice: [],
     introducción: [
         'Eönwë era uno de los Maiar, también llamado Fionwë, heraldo y mano derecha de Manwë. Era considerado el Maia más fuerte de todos, tanto que su poder es comparable al de los Valar.',

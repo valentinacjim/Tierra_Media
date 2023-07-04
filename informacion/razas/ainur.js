@@ -157,25 +157,25 @@ let balrogs = {
     cards: [
         {
             nombre_objeto: 'gothmog',
-            nombre: 'Gothmog',
+            titulo: 'Gothmog',
             image: "images/gothmog_card.jpg",
             tipo: 8,
         },
         {
             nombre_objeto: 'daño_durin',
-            nombre: 'Daño de Durin',
+            titulo: 'Daño de Durin',
             image: "images/daño_durin_card.jpg",
             tipo: 8,
         },
         {
             nombre_objeto: 'lungorthin',
-            nombre: 'Lungorthin',
+            titulo: 'Lungorthin',
             image: "images/lungorthin_card.jpg",
             tipo: 8,
         },
         {
             nombre_objeto: 'regonorth', 
-            nombre: 'Regonorth',
+            titulo: 'Regonorth',
             image: "images/regonorth_card.jpg",
             tipo: 8,
         }

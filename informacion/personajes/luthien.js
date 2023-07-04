@@ -1,7 +1,7 @@
 let luthien = {
     nombre: 'Lúthien',
     ficha: {},
-    image: 'images/personajes/',
+    image: 'images/personajes/Luthien.jpg',
     indice: ['Historia', 'Habilidades', 'Apariencia', 'Curiosidades'],
     introducción: [
         'Lúthien, también conocida como Tinúviël (Hija del Crepúsculo), era una doncella de Doriath, la esposa de Beren, y la más hermosa de todos los Hijos de Ilúvatar que jamás haya vivido. Su amor por Beren, por la que estaba dispuesta a arriesgarlo todo, incluso a la misma muerte, es legendario y se reconoció por siempre en canciones e historias. La Balada de Beren y Lúthien, es quizá la canción más conocida en toda la Tierra Media. Su historia también nos llega por La canción de Leithian. Ella y Beren desafiaron los horrores de Angband, llegando incluso hasta el trono de Morgoth ganando el Silmaril y el respeto de Thingol. A pesar de sus acciones, más tarde ambos murieron, sus hechos les ganó la pena de Mandos y una segunda vida en la Tierra Media.'

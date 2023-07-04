@@ -4,7 +4,7 @@ let halbrand = {
         'Raza': 'Maiar <br> Sureños (disfraz)',
         'Sexo': 'Masculino',
     },
-    image: 'images/personajes/',
+    image: 'images/personajes/Halbrand.jpg',
     indice: ['Historia', 'Curiosidades'],
     introducción: [
         'Halbrand es un Maia que aparece en la Segunda Edad.',

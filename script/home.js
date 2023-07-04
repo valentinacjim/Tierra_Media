@@ -1,6 +1,6 @@
 
 let paginas = document.getElementsByClassName('page');
-let historial = [[0]];
+let historial = [0];
 // console.log(paginas.length);
 
 function mostrarPagina(index, name=null, actual=null) {
@@ -19,19 +19,19 @@ function mostrarPagina(index, name=null, actual=null) {
     }
     paginas[index].style.visibility = 'visible';
     if (index == 8) {
-        crearPaginaPersonaje(name);
+        crearPaginaTema(name);
     }
     if (index == 7) {
-        crearPaginaRaza(name);
+        crearPaginaCategoria(name);
     }
 
     
 }
 
 function volver() {
-     console.log(historial);
+    //  console.log(historial);
     let anterior = historial[historial.length-1];
-    console.log(anterior);
+    // console.log(anterior);
     for (let i = 0; i < paginas.length; i++) {
         paginas[i].style.visibility = 'hidden';
     }
@@ -42,11 +42,11 @@ function volver() {
         // si existe atributo cards en anterior
         if (anterior.hasOwnProperty('cards')) {
 
-            crearPaginaRaza(anterior);
+            crearPaginaCategoria(anterior);
             paginas[7].style.visibility = 'visible';
         }
         else {
-            crearPaginaPersonaje(anterior);
+            crearPaginaTema(anterior);
             paginas[8].style.visibility = 'visible';
         }
     }

@@ -1,7 +1,7 @@
 let osse = {
     nombre: 'Ossë',
     ficha: {},
-    image: 'images/personajes/',
+    image: 'images/personajes/osse.jpg',
     indice: [],
     introducción: [
         'Ossë es uno de los Ainur, concretamente un Maia de Ulmo. Domina los mares interiores de Arda, junto a su esposa Uinen.',
