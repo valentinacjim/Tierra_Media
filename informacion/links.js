@@ -19,5 +19,10 @@ document.write('<script src="informacion/personajes/melian.js"></script>');
 document.write('<script src="informacion/personajes/osse.js"></script>');
 document.write('<script src="informacion/personajes/salmar.js"></script>');
 document.write('<script src="informacion/personajes/sauron.js"></script>');
-// document.write('<script src=""></script>');
+document.write('<script src="informacion/libros/cuentos_desde_el_reino_peligroso.js"></script>');
+document.write('<script src="informacion/libros/cuentos_inconclusos.js"></script>');
+document.write('<script src="informacion/libros/el_hobbit.js"></script>');
+document.write('<script src="informacion/libros/señor_de_los_anillos.js"></script>');
+document.write('<script src="informacion/libros/silmarillion.js"></script>');
+document.write('<script src="informacion/libros/hijos_de_durin.js"></script>');
 

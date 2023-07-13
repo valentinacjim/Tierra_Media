@@ -1,4 +1,4 @@
-let el_hobbit = {
+let el_hobbit_libro = {
     nombre: 'El Hobbit',
     ficha: {
         'Autor': 'J. R. R. Tolkien',
