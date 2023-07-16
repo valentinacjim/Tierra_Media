@@ -1,7 +1,7 @@
-let hijos_de_durin = {
+let hijos_de_húrin = {
     nombre: 'Los Hijos de Húrin',
     ficha: {},
-    image: 'informacion/libros/hijos_de_durin.js',
+    image: 'images/libros/hijos_de_húrin.jpg',
     indice: ['Contexto', 'Historia', 'Capítulos'],
     introducción: ['Los Hijos de Húrin es una novela escrita por J. R. R. Tolkien y editada por su hijo Christopher Tolkien.'],
     informacion: {

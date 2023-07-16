@@ -41,7 +41,7 @@ let señor_de_los_anillos_la_comunidad_del_anillo_libro = {
     image: 'images/libros/esdla_comunidad_del_anillo.jpg',
     indice:['Prólogo','Libro I: El Primer Viaje / El Anillo Se Establece','Libro II: El Viaje de los Nueve Compañeros / El Anillo va al Sur'],
     introducción: ['El Señor de los Anillos: La Comunidad del Anillo, es el primero de tres volúmenes de la saga del género épico fantástico El Señor de los Anillos. Se divide en dos libros, Libro I y II. Fue publicada el 29 de Julio de 1954 en el Reino Unido por Allen y Unwin.'],
-    información: {
+    informacion: {
         'Prólogo': [
             'El libro comienza con un prólogo, que resume los eventos del primer libro, El Hobbit. Relata la historia del anillo y de su creador Sauron, y de Smeagol y su amigo Deagol, y de cómo llega el anillo a ellos tras la reciente "derrota" de Sauron. También explica cómo Bilbo Bolsón encuentra el "Anillo Único", después de que Smeagol que ahora es Gollum, lo pierde. Entonces Bilbo vuelve a Bolsón Cerrado en La Comarca y la historia de Frodo Bolsón, sobrino de Bilbo, comienza.',
             'También habla de historias como el arte de la hierba para pipa, un habito de los hobbits; del orden geográfico en el que se encuentra La Comarca de las cuatro cuadernas; y de algunos otros apuntes referentes a los hobbits como su historia, costumbres y cultura.'
@@ -98,12 +98,12 @@ let señor_de_los_anillos_las_dos_torres_libro = {
         'Legendarium': 'Sí',
         'Título original': 'The Lord of the Rings: The Two Towers',
     },
-    image: 'img/libros/el_señor_de_los_anillos_las_dos_torres.jpg',
+    image: 'images/libros/esdla_las_dos_torres.jpg',
     indice: ['Libro III: La traición de Isengard', 'Libro IV: El Anillo viaja al Este'],
     introducción: [
         'El Señor de los Anillos: Las Dos Torres, es la segunda parte de la Trilogía de El Señor de los Anillos de J.R.R. Tolkien. En ella se narra el ataque de Saruman sobre Rohan, y la posterior caída del mago y destrucción de su fortaleza, Isengard. También cuenta como Gollum guía a Frodo y Sam para llegar hasta Mordor. Es el segundo libro más largo de la Trilogía, siendo el más largo El Señor de los Anillos: La Comunidad del Anillo.'
     ],
-    información: {
+    informacion: {
         'Libro III: La traición de Isengard': [
             '<h2> Persecución en Fangorn </h2>',
             'Aragorn, Gimli y Legolas tienden al cuerpo fenecido de Boromir sobre un bote y lo dejan navegar corriente abajo por el Rauros para que descanse en paz. Seguidamente, tras reflexionar, toman la decisión de seguir la pista de los hobbits Pippin y Merry secuestrados por los orcos, ya que intuyen que Sam y Frodo quieren hacer su camino a Mordor en solitario.',
@@ -145,10 +145,10 @@ let señor_de_los_anillos_el_retorno_del_rey_libro = {
         'Legendarium': 'Sí',
         'Título original': 'The Lord of the Rings: The Return of the King'
     },
-    image: "images/libros/el_señor_de_los_anillos_el_retorno_del_rey.jpg",
+    image: "images/libros/esdla_el_retorno_del_rey.jpg",
     indice: ['Libro V: La Guerra del Anillo', 'Libro VI: El final de la Tercera Edad'],
     introducción: ['El Señor de los Anillos: El Retorno del Rey, es la tercera parte de la Trilogía de El Señor de los Anillos de J.R.R. Tolkien.'],
-    información: {
+    informacion: {
         'Libro V: La Guerra del Anillo': [
             'La historia comienza cuando Gandalf lleva las noticias a Denethor, el Senescal de Gondor, que la guerra es inminente. Gandalf lleva Pippin con él, que entra al servicio de mayordomo. Mientras Aragorn, está destinado para encontrar un ejército perdido de los hombres ya muertos todavía atrapadas en una maldición establecida hace mucho tiempo por su propia desobediencia, en el lugar conocido como el Sendero de los muertos. Los miembros restantes de la Comunidad llevan a las fuerzas de Gondor y Rohan en la defensa de la capital de Gondor, Minas Tirith, lo que resulta en la Batalla de los Campos del Pelennor. La mayoria de los miembros de la compañia que logran sobrevivir a la batalla son dirigidos por Aragorn en un cierto ataque suicida contra las Puertas Negras de Mordor, en parte para distraer a Sauron de la defensa de sus otras fronteras para que Frodo y Sam pueden tener un paso libre hacia Mordor. El ejercito de Aragorn rodea ahora las Puertas Negras de la Morannon e intercambian palabras ociosas con la Boca de Sauron.',
             '<h2>Nubes de guerra</h2>',
